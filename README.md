@@ -25,7 +25,7 @@ Check out the Codex for more information about [installing plugins manually](htt
 
 ## Usage
 
-This plugin adds a Backstretch Slideshow of three images to your home page via the WordPress Customizer. You can specify the home page container in which the Backstretch Slideshow will display. You may also specify the Slide Duration, the Fade Duration, the Overlay Color and the Overlay Opacity.
+This plugin adds a Backstretch Slideshow of three images via the WordPress Customizer. You can specify the container in which the Backstretch Slideshow will display. You may also specify the Slide Duration, the Fade Duration, the Overlay Color and the Overlay Opacity.
 
 ## Issues
 
