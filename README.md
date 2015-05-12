@@ -4,7 +4,6 @@ WordPress plugin that uses the Backstretch jQuery plugin to add a Backstretch Sl
 
 ## Requirements
  * WordPress 4.0
- * Genesis 2.0
 
 ## Installation
 
