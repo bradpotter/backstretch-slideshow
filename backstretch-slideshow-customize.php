@@ -128,9 +128,10 @@ function backstretch_slideshow_customizer_register() {
 add_action( 'customize_register', 'backstretch_slideshow_customizer_options' );
 /**
  * Adds settings and controls to the customizer
+ * 
+ * @since 0.9.0
  */
 function backstretch_slideshow_customizer_options( $wp_customize ) {
-
 
 	$wp_customize->add_setting(
 		'backstretch_slideshow_container',
@@ -236,6 +237,11 @@ function backstretch_slideshow_customizer_options( $wp_customize ) {
 	);
 }
 
+/**
+ * Sanitize fade duration
+ * 
+ * @since 0.9.0
+ */
 function sanitize_fade_duration( $value ) {
     if ( ! in_array( $value, array( 'slow', 'normal', 'fast' ) ) )
         $value = 'normal';

@@ -11,7 +11,7 @@
  * @wordpress-plugin
  * Plugin Name:       Backstretch Slideshow
  * Plugin URI:        https://github.com/bradpotter/backstretch-slideshow
- * Description:       Creates a Backstretch Slideshow for the home page on Genesis Framework Themes.
+ * Description:       Creates a Backstretch Slideshow with images uploaded via the Customizer.
  * Version:           0.9.0
  * Author:            Brad Potter
  * Author URI:        http://www.bradpotter.com
@@ -33,6 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Set constants
  *
+ * @since 0.9.0
  */
 define( 'BSS_PLUGIN_DIR', dirname( __FILE__ ) );
 define( 'BSS_URL' , plugins_url() . '/' . str_replace( basename( __FILE__ ), "" , plugin_basename( __FILE__ ) ) );
@@ -40,6 +41,7 @@ define( 'BSS_URL' , plugins_url() . '/' . str_replace( basename( __FILE__ ), "" 
 /**
  * Initialize Backstretch Slideshow
  *
+ * @since 0.9.0
  */
 function backstretch_slideshow_init() {
 

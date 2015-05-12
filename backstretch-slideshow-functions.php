@@ -13,6 +13,7 @@ add_action( 'wp_enqueue_scripts', 'backstretch_slideshow_enqueue_scripts' );
 /**
  * Enqueue scripts for Backstretch Slideshow
  *
+ * @since 0.9.0
  */
 function backstretch_slideshow_enqueue_scripts() {
 	
@@ -23,7 +24,6 @@ function backstretch_slideshow_enqueue_scripts() {
 	$slide_duration = get_option( 'backstretch_slideshow_slide_duration', sprintf( '5000' ) );
 	$fade_duration = get_option( 'backstretch_slideshow_fade_duration', sprintf( 'normal' ) );
 
-	
 	//* Load scripts only if custom backstretch image is being used
 	if ( ! empty( $image1 ) ) {
 
@@ -51,6 +51,7 @@ add_action( 'wp_head', 'backstretch_slideshow_customizer_css' );
 /**
  * Add custom CSS styles to the Head
  *
+ * @since 0.9.0
  */
 function backstretch_slideshow_customizer_css() {
 ?>
